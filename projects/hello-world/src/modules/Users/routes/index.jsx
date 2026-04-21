@@ -2,7 +2,7 @@ import UserView from "../pages/users.jsx"
 
 export default [
 	{
-		path: '/users',
+		path: '/users/:userId',
 		element: <UserView />
 	}
 ]
